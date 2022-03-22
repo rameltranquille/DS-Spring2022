@@ -13,11 +13,11 @@ System.out.println("Hello Ramel");
 ------------------------------------------------------------
 ## Notes
 - Take Fermi Estimates often 
-- [hackerRankSession](220314-1223-hackerranksession)
-- [Intro](Intro)
-- [DS-Overview](DS-Overview)
+- [hackerRankSession](220314-1223-hackerranksession.md)
+- [Intro](Intro.md)
+- [DS-Overview](DS-Overview.md)
 - [Lists](ListPI-III.md)
-- [StacksAndQueues](StacksAndQueues)
+- [StacksAndQueues](StacksAndQueues.md)
 - [randomNotes](220320-2041-randomnotes.md)
  
 ## Resources
