@@ -16,7 +16,7 @@ System.out.println("Hello Ramel");
 - [hackerRankSession](220314-1223-hackerranksession)
 - [Intro](Intro)
 - [DS-Overview](DS-Overview)
-- [Lists](ListPI-III)
+- [Lists](ListPI-III.md)
 - [StacksAndQueues](StacksAndQueues)
 - [randomNotes](220320-2041-randomnotes.md)
  
