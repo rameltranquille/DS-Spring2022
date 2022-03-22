@@ -18,7 +18,7 @@ System.out.println("Hello Ramel");
 - [DS-Overview](DS-Overview)
 - [Lists](ListPI-III)
 - [StacksAndQueues](StacksAndQueues)
-- [randomNotes](220320-2041-randomnotes)
+- [randomNotes](220320-2041-randomnotes.md)
  
 ## Resources
 [JAVA DS Textbook][file:javaDS.pdf]
