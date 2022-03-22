@@ -1,4 +1,9 @@
 # CompSci
+
+```java
+System.out.println("Hello Ramel");
+```
+------------------------------------------------------------
 # Generated Links
 
 - [Data Structure](dataStructures)
@@ -6,19 +11,33 @@
 
 
 ------------------------------------------------------------
+## Notes
+- Take Fermi Estimates often 
+- [hackerRankSession](220314-1223-hackerranksession)
+- [Intro](Intro)
+- [DS-Overview](DS-Overview)
+- [Lists](ListPI-III)
+- [StacksAndQueues](StacksAndQueues)
+- [randomNotes](220320-2041-randomnotes)
+ 
 ## Resources
 [JAVA DS Textbook][file:javaDS.pdf]
 [Think Data Structures][file:think-data-struct.pdf]
 [Brightspace](https://brightspace.nyu.edu/d2l/home/163136)
 
-## Notes
-- Take Fermi Estimates often 
-- [Intro](Intro)
-- [Memory in Java](javaMemory)
+### Slides
+https://cs.nyu.edu/~joannakl/cs102_s22/slides/01-course_intro.html#1
+https://cs.nyu.edu/~joannakl/cs102_s22/slides/02-java-memory.html#1
+https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_1.html#1
+https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_2.html#1
+
+
 
 ------------------------------------------------------------
 ## Assignments
 - [ ] Incomplete Projects and Quizzes -> ASAP
+- [ ] Copy & tryout code from slides 1
+- [ ] copy & tryout code from slides 2
 - [ ] Email Professor about grades and makeups -> ASAP
 - [ ] Overdue CS projects and other homework
 - [ ] Watch Lectures -> ASAP
@@ -53,3 +72,7 @@
       completing assigned readings, tutorials, activities, etc., and self-assessment exercises, 
       actively participating in recitations and completing group and individual work
 
+
+# Unlinked Notes
+
+- [DS-Note-Template](DS-Note-Template)
