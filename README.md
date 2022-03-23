@@ -9,42 +9,31 @@ System.out.println("Hello Ramel");
 - [Data Structure](dataStructures)
 - [JavaFromCLI](JavaFromCLI)
 
-
 ------------------------------------------------------------
 ## Notes
-- Take Fermi Estimates often 
-- [hackerRankSession](220314-1223-hackerranksession)
-- [Intro](Intro)
-- [DS-Overview](DS-Overview)
-- [Lists](ListPI-III)
-- [StacksAndQueues](StacksAndQueues)
-- [randomNotes](220320-2041-randomnotes)
+- [Intro](Intro.md)
+- [DS-Overview](DS-Overview.md)
+- [Lists](ListPI-III.md)
+- [StacksAndQueues](StacksAndQueues.md)
+- [CorrectnessAndComplexity](CorrectnessAndComplexity.md)
+- [03222022-random](03222022-random.md)
+- [Problem-Solving](Problem-Solving.md)
  
 ## Resources
-[JAVA DS Textbook][file:javaDS.pdf]
-[Think Data Structures][file:think-data-struct.pdf]
-[Brightspace](https://brightspace.nyu.edu/d2l/home/163136)
-
-### Slides
-https://cs.nyu.edu/~joannakl/cs102_s22/slides/01-course_intro.html#1
-https://cs.nyu.edu/~joannakl/cs102_s22/slides/02-java-memory.html#1
-https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_1.html#1
-https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_2.html#1
+* [JAVA DS Textbook](file:javaDS.pdf)
+* [Think Data Structures](file:think-data-struct.pdf) 
+* [Brightspace](https://brightspace.nyu.edu/d2l/home/163136)
+* [Slides](https://cs.nyu.edu/~joannakl/cs102_s22/slides/)
 
 
 
 ------------------------------------------------------------
 ## Assignments
 - [ ] Incomplete Projects and Quizzes -> ASAP
+- [ ] DS Iterators
 - [ ] Copy & tryout code from slides 1
 - [ ] copy & tryout code from slides 2
-- [ ] Email Professor about grades and makeups -> ASAP
 - [ ] Overdue CS projects and other homework
-- [ ] Watch Lectures -> ASAP
-- [ ] [FermiReadings](https://www.lesswrong.com/tag/fermi-estimation)
-
-### Other Todos
-
 
 ------------------------------------------------------------
 ### Class Outline
@@ -71,8 +60,3 @@ https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_2.html
 	- taking an active part in class discussions (asking and answering questions on the course discussion forum), 
       completing assigned readings, tutorials, activities, etc., and self-assessment exercises, 
       actively participating in recitations and completing group and individual work
-
-
-# Unlinked Notes
-
-- [DS-Note-Template](DS-Note-Template)

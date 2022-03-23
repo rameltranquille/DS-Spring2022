@@ -116,7 +116,7 @@ public interface Queue<E> {
 As before, we must decide the front and the end of the queue, in addition to making sure the array capacity grows if necessary.
 so for the following 
 
-**Start Point of array-based Q**
+### Start Point & Capacity of array-based Q
 - capacity = 8
 - size = 3
 - front = 2
@@ -130,7 +130,7 @@ $$
 *Note on MOD: 10 mod 8 = 2. Its somewhat like the remainder after division. But not exactly.* Java's % is a remainder, not mod
 
 *Note: In a circular array-based Queue, where there are empty locations in the front of the array, we wrap values back to
-the start of the array instead of allocating a new one.
+the start of the array instead of allocating a new one.*
 
 **Additional Capacity for array-based Q**
 - we want to copy the old values from the old array to our new one, so we multiply the capacity of the new unfilled-list

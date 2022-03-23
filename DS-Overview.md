@@ -1,18 +1,4 @@
 # Data Structures and Algorithms (Bird's Eye View)
-----------------------------------------------
-# Notes Summary
-
-- DS holds a collection of data in various formats
-
-*Arrays*
-- fixed size (must create a diff array when at max size)
-
-
-
-
-
-
-----------------------------------------------
 **Linear** - When the number of operations is directly proportional to the input size (generally denoted as N), we are using a linear 
 algorithm. This is often described as an O(N) algorithm
 
@@ -51,16 +37,18 @@ But then, how do we know which element is at which index???? Or which element fo
 	- Now when adding, we just change the memory address of the pointers (making storage less tedious)
 
 ## Linked List
-**linked list** - a linear collection of data elements in which each element points to the next one
-https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_1.html#101
+**Linked List** - a linear collection of data elements in which each element points to the next one         
+[Reference Slide](https://cs.nyu.edu/~joannakl/cs102_s22/slides/03-data_structures_overview_1.html#101)
 ![LinkedList Example](linkedList.png)
 
 The list is usually composed of nodes (containing the actual value of the data) and the memory address of the next element
 
+```java 
 class Node {
 	int data;
 	Node next;
 }
+```
 
 A linked list may also include references to a node such as....
 **head** is a reference to the first node

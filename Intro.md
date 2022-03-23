@@ -1,6 +1,6 @@
 # Intro
 
-**[Data Structure:](Data Structure:)** a collection of data items in a memory of a running program that are organizaed in some fashion that allows items to be stored and retrieved by some fixed methods. 
+**Data Structure:** a collection of data items in a memory of a running program that are organizaed in some fashion that allows items to be stored and retrieved by some fixed methods. 
 
 **Algorithms:** A logical sequence of discrete steps that describes a complete solution to a given problem commutable in a finite amount of time and space
 
@@ -15,11 +15,9 @@ for (int i = 0; i < size; i++) {
 	twiceNumbers.addLast(num * 2);
 }
 ```
-
 "Good programmers worry about data structures and their relationships" - Linus Torvalds
 
 ## Code Comparison
-
 *Creating a string full of A*
 - Stringbuilder's append function vs String
 - *Q* How is memory stored and organizeed for a function 
@@ -31,7 +29,6 @@ for (int i = 0; i < size; i++) {
     
 *Calculating Fibonacci Numbers*
 - recursion vs iterating and storing (recursion can be dangerous, and is not efficient)
- 
  
  ## Java Programs Basics
 - source code -> javac Hello.java (Hello.java)
@@ -49,8 +46,6 @@ for (int i = 0; i < size; i++) {
 - Treat mistakes and bugs as your friends
 - Make friends
   
-
-
 ## Java Memory
 Programs use memory to store data. 
 
@@ -66,7 +61,6 @@ Variables have four things assocaited with it (ex. int x = 10;)
 ```java
 Circle c;
 c = new Circle(15);
-
 ```
 assigning the Circle object to c, means that the value of c variable is set to memory address of the new Circle object
 we say that c *refers to the object*
@@ -99,11 +93,7 @@ Stack - all local variables and temp information for functions/methods are store
 - occurs whenever we use the keyword *new*
  
  
- Arrays in java are always stored on the heap in consecutive memory locations
+ Arrays in java are always stored on the in consecutive memory locations
  ```java
 int [] array = new int[10];
 ```
-
-
-
-

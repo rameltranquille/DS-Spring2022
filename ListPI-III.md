@@ -7,7 +7,7 @@
 	* implementation independent
 	* can be either programming language dependent or independent
 
-**List ADT**
+**List ADT** (*List Interface*)
 - values stored
 	* the list of elements itself
 	* size - curr numbers of elements in the list
@@ -29,8 +29,8 @@ class Node {
 	int data;
 	Node next;
 }
-// we can also store any ref type in these nodes
 
+// we can also store any ref type in these nodes
 // a node can store any reference data type
 // Node<String> n = new NOde<String>();
 class Node <E> {
@@ -74,30 +74,23 @@ Node n = new Node();
 - add to back
 - add elsewhere
 
-
+**Adding to the front or end**
 ```java
 // making a new list (from empty list)
 Node curr = new Node();
 head = curr;
 tail = curr;
 
-// adding to the front of a list
-Node n = new Node();
-// point our new node to the head (so we do no lose any data when adding)
-n.next = head;
-// remove the old head/assign the new node 
-head = n;
+Node n = new Node(); // adding to the front of a list
+n.next = head; // point our new node to the head (so we do no lose any data when adding)
+head = n; // remove the old head/assign the new node 
 
-
-
-// adding to the end of a list
-Node n = new Node();
-// point the tail to the next value N
-tail.next = n;
-// make the tail to its own pointer (signifying the end)
-tail = tail.next;
+Node n = new Node(); // adding to the end of a list
+tail.next = n; // point the tail to the next value N
+tail = tail.next; // make the tail to its own pointer (signifying the end)
 ```
 
+**Adding to An Arbitrary Position**
 ```java
 // adding to an arbitrary position
 Node n = new Node();
@@ -109,7 +102,7 @@ n.next = current.next;
 current.next = n;
 ```
 
-
+**Finding an element**
 ```java
 // finding an element in a LL
 public int find (E it) {
@@ -133,15 +126,18 @@ public int find (E it) {
 }
 ```
 
+**Removing from the front**
 ```java
 // removing from the front
 // we just point to the next value
 head = head.next;
+```
+**List w/ Singular Element**
+```java
 // for the single element deleted from a singular element LL, we must account 
 // for the tail
 if (head == null) 
 	tail = null;
-	
 
 // BELOW IS REMOVAL FOR ARBITRARY POSITIONS AND THE TAIL
 // removing the last node, we must traverse to the end
@@ -157,7 +153,7 @@ if (head.next == null) {
 }
 ```
 
-## ArrayList<E>
+# ArrayList<E>
 
 This is an array based implementation of a list within Java.
 - data is stored in an array (not nodes)
@@ -191,7 +187,7 @@ public boolean add(E element) {
 *Adding to an Arbitrary Position* -> O(N): shift the elements by one position to the right (higher indexes)
 *Removing from an Arbitrary Position* -> O(N): shift the elements by one position to the left (lower indexes)
 
-### Equals Method in ArrayList
+## Equals Method in ArrayList
 **public boolean equals (Object o)**
 Compares the specified object with this list for equality. Returns true if and only if 
 the specified object is also a list, has the same size, and the same order
@@ -206,26 +202,28 @@ the specified object is also a list, has the same size, and the same order
 note: the wording between this list and specified object may be weird
   but it accounts for the fact that we can compare/use the the equals method on
   an instance of AL and instance of LL to compare them
+[Equals Method Implementation](https://cs.nyu.edu/~joannakl/cs102_s22/slides/05-lists_2.html#36)    
+[Equals Method AltImplementation](https://cs.nyu.edu/~joannakl/cs102_s22/slides/05-lists_2.html#37)     
 
-***EQUALS* METHOD IMPLEMENTATION**
-![Equals Method Implementation](https://cs.nyu.edu/~joannakl/cs102_s22/slides/05-lists_2.html#36)
-![Equals Method ALTImplementation](https://cs.nyu.edu/~joannakl/cs102_s22/slides/05-lists_2.html#37)
-
-### ArrayList<E> Summary
+## ArrayList<E> Summary
 - capaacity = size of the array used to store data
 - size = number of element stored
+ 
 $$ 
 Capacity >= Size 
 $$
+
 - An empty list will often have a non-zero capacity
 - Capacity is not decreased as elements are removed. But it can be reduced by an explicit call to *trimToSize*
 ![ArrayLists Performance of Operations](arrayListOperationsPerformance.png)
 *note:* Adding/Removing have the amortized performance
 
 
-## Singly Linked List
+## Doubly Linked List
+**SINGLY LINKED LIST**
 - reference from a node to a node that follows, and the last node's reference is set to null
 - thus only one link between two values (maybe two values)
+ 
 **DOUBLY LINKED LIST** - double connection between nodes, meaning that each node has a reference
   to the node ahead of it and behind it.
 ```java 
@@ -238,7 +236,7 @@ class Node<E> {
 }
 // LinkedList<E> class uses the doubly linked list
 ```
-
+### Circular Linked List
 **CIRCULAR LINKED LIST** - the last node is connected back to the first node (instead of having its reference set to null).
   which, can be either singly or doubly linked. so instead of pointing to null, our tail node should point to the end.
   this can also be doubly linked, such that the head node also points to the tail node
@@ -270,20 +268,6 @@ public Iterator<E> iterator() {
 	return new Itr();
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
